@@ -35,7 +35,6 @@ void  exit_bul(char **cmd, char *input, char **argv, int c)
 	}
 }
 
-
 /**
  * change_dir - Change Dirctorie
  * @cmd: Parsed Command

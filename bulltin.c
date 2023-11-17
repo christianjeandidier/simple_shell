@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * exit_bul - Exit Statue Shell
  * @cmd: Parsed Command
@@ -68,6 +69,7 @@ int change_dir(char **cmd, __attribute__((unused))int er)
 	}
 	return (0);
 }
+
 /**
  * dis_env - Display Enviroment Variable
  * @cmd:Parsed Command
@@ -87,6 +89,7 @@ size_t i;
 	}
 	return (0);
 }
+
 /**
  * display_help - Displaying Help For Builtin
  * @cmd:Parsed Command
@@ -116,6 +119,7 @@ int display_help(char **cmd, __attribute__((unused))int er)
 	_putchar('\n');
 	return (0);
 }
+
 /**
  * echo_bul - Excute Echo Cases
  * @st:Statue Of Last Command Excuted

@@ -7,6 +7,7 @@ void prompt(void)
 {
 	PRINTER("$ ");
 }
+
 /**
  * print_error - Display Error Based on Command and How Many Time Shell Looped
  * @input:User Input

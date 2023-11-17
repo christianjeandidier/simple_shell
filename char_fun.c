@@ -11,6 +11,7 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
 /**
  * _strncpy - copie a string
  * @dest:char
@@ -79,6 +80,7 @@ int i, j, n, x;
 	}
 	return (n);
 }
+
 /**
  * _puts - print a string
  * @str:pointer char
@@ -94,4 +96,5 @@ void _puts(char *str)
 	}
 _putchar('\n');
 return;
+
 }
